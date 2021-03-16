@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head> 
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" type="text/css" href="shp_card.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" 
+    integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" 
+    crossorigin="anonymous"></script>
+    
+
+      </head>
+
+
+      <body>
+          <header>
+              <h1 class="shop">Shopping Cart</h1>
+              <img style="background-color:yellowgreen" src="icon.png" width="300" hight="70"  >
+          </header>
+
+          <main>
+          <div class="shopping_card">
+          <!--1st item-->
+          <section class="item">
+
+            <div class="buttons">
+                <span class="like-btn"><i class="fa fa-heart"></i></span></div>
+
+        <img src="sneakers.jpg" width="150" hight="15">
+
+        <div class="description">
+            <span>Sneakers</span></br>
+            <span class="color" style="color:grey">White</span></div>
+            <div class="total-price">$60</div>
+
+        <div class="quantity">
+            <button class="plus-btn" type="button" name="button">
+                <i class="fas fa-plus"></i>
+            </button>
+            <p class="quantityOfItem">1</p>
+            <button class="minus-btn" type="button" name="button">
+                <i class="fas fa-minus"></i>
+            </button>
+            <button class="danger" type="button" >REMOVE</button></div>
+        </section>
+   
+<!--2nd item-->
+    <section class="item">
+        <div class="buttons">
+        <span class="like-btn"><i class="fa fa-heart"></i></span></div>
+        <img src="apple_watch.jpg" width="150" hight="15">
+        <div class="description">
+            <span>Apple Watch</span></br>
+            <span  class="color" style="color:grey">Or</span></div>
+        <div class="total-price">$800</div>
+        <div class="quantity">
+            <button class="plus-btn" type="button" name="button">
+                <i class="fas fa-plus"></i>
+            </button>
+            <p class="quantityOfItem">1</p>
+            <button class="minus-btn" type="button" name="button">
+                <i class="fas fa-minus"></i>
+            </button>
+            <button class="danger" type="button" name="button">REMOVE</button>
+        </div>
+        
+    </section>
+   <!--item 3-->
+   <section class="item">
+       <div class="buttons">
+           <span class="like-btn"><i class="fa fa-heart"></i></span></div>
+        <img src="costume.jpg" width="150" hight="15">
+        <div class="description">
+            <span>Women Suit</span></br>
+            <span  class="color" style="color:grey">Black</span></div>
+        <div class="total-price">$200</div>
+        <div class="quantity">
+            <button class="plus-btn" type="button" name="button">
+                <i class="fas fa-plus"></i>
+            </button>
+            <!-- <input  id="quantite" class="quantity-input" type="number"  value=1> -->
+      <p class="quantityOfItem ">1</p>  
+      <button class="minus-btn" type="button" name="button">
+            <i class="fas fa-minus"></i>
+        </button>
+        <button class="danger" type="button" name="button">REMOVE</button></div>
+        
+    </section>
+</div>
+
+
+<div class=" cart-total">
+    <strong class="cart-total-title">Total</strong>
+    <span class="cart-total-price">$1060</span>
+</div>
+</main>
+<script src="shop-cart.js" async></script>
+      </body>
+
+      </html>
